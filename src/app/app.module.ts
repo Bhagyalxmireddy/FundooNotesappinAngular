@@ -24,6 +24,7 @@ import { TakenoteComponent } from './components/takenote/takenote.component';
 import { DisplaynoteComponent } from './components/displaynote/displaynote.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatDialogModule} from '@angular/material/dialog';
+import {UpdateComponent} from './components/update/update.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     ResetPasswordComponent,
     NoteComponent,
     TakenoteComponent,
-    DisplaynoteComponent
+    DisplaynoteComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,

@@ -15,4 +15,11 @@ export class NoteServiceService {
   getAllNotes(){
     return this.http.get('notes/getNotesList');
   }
+  updateNote(data:any){
+    return this.http.post('notes/updateNotes',data)
+   }
+ 
+     deleteNotes(data:any){
+       return this.http.post('notes/trashNotes',data)
+     }
 }
